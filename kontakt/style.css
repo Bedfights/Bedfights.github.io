@@ -1,5 +1,5 @@
 body {
-    background-color:rgb(10, 20, 40);
+    background-color:rgb(10, 18, 42);
     margin:0;  
 
 }
@@ -13,7 +13,7 @@ body {
     height:100vh;
     text-align:center;
     position:absolute;
-    background-color:rgb(10, 20, 40);
+    background-color:rgb(10, 18, 42);
 }
 #menu ul {
     margin: 0;
@@ -26,7 +26,7 @@ body {
     color:rgb(240, 240, 230);
 }
 .selectButton {
-    background-color:rgb(10, 20, 40);
+    background-color:rgb(10, 18, 42);
     border-style:solid;
     border-color:rgb(240, 240, 230);
     text-decoration:none;
