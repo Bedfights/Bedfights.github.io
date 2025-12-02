@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" href="/palamedia/Logo.png">
+    <link rel="icon" href="/palamedia/blacktransparentlogo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kontakt | PALAmedia</title>
     <link href="style.css" type="text/css" rel="stylesheet">
@@ -10,7 +10,7 @@
 <body>
 <header>
     <div id="navContainer">
-        <img id="navImg" src="/palamedia/Logo.png">
+        <img id="navImg" src="/palamedia/whitetransparentlogo.png">
         <button id="menuButton">☰</button>
         <nav class="navbar">
             <ul>
@@ -31,16 +31,31 @@
     </ul>
 </div>
 <div id="largeTitle">
-    <h1 id="h1-1">KONTAKT</h1><br>
+    <h1 id="h1-1">KONTAKTA OSS</h1><br>
 </div>
 <div class="content">
     <div class="smallContainer" id="sC1">
-        <h2>Telefon</h2>
-        <p></p>
+        <input class="contactInput" id="cI1" type="text" name="name" placeholder="Namn" required>
+        <input class="contactInput" id="cI2" type="email" name="mail" placeholder="E-mail" required>
+        <textarea class="contactInput" id="cI3" name="message" placeholder="Meddelande" required></textarea>
+        <button type="submit" id="submit">Skicka</button>
     </div>
     <div class="smallContainer" id="sC2">
-        <h2>Mail</h2>
-        <p>palamedia.uf@gmail.com</p>
+        <div id="flexText">
+        <div id="sC2Text1">
+            <h2>Kontakt</h2>
+            <p>palamedia.uf@gmail.com</p>
+        </div>
+        <div id="sC2Text2">
+            <h2>Baserade i</h2>
+            <p>Boden, Sverige</p>
+        </div>
+        </div>
+        <div class="socials">
+            <img id="social1" src="/palamedia/facebookicon.png">
+            <img id="social2" src="/palamedia/instagramicon.png">
+            <img id="social3" src="/palamedia/tiktokicon.png">
+        </div>
     </div>
 </div>
 <script>

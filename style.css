@@ -93,6 +93,14 @@ header{
     width:100px;
     float:left;
 }
+#navImg:hover {
+    filter: 
+    drop-shadow(0 0 2px rgba(0,191,255,0.3))
+    drop-shadow(0 0 3px rgba(0,191,255,0.3))
+    drop-shadow(0 0 4px rgba(0,191,255,0.3))
+    drop-shadow(0 0 8px rgba(0,191,255,0.3));
+
+}
 #navContainer {
     width: 60vw;
     height: 100px;
@@ -151,10 +159,13 @@ h1 {
     margin-top: 16vh;
     margin-left: auto;
     margin-right: auto;
-    text-align:center;
 }
 .smallContainer h2 {
     margin:0;
+    font-size:32px;
+}
+.smallContainer p {
+    font-size:20px;
 }
 #sC1 {
     background-color:rgb(240, 240, 230);
@@ -219,7 +230,7 @@ h1 {
     z-index: -1;
 }
 #section2 h2 {
-    color:rgb(30,60,90);
+    margin: 35px 0;
     font-size:30px;
     font-family:arial;
     display:block;
@@ -268,6 +279,9 @@ h1 {
     }
     #bottomImg {
         display:none;
+    }
+    #bottomContainer {
+        width: 80vw;
     }
     #section2 h2 {
         margin-left:auto;
